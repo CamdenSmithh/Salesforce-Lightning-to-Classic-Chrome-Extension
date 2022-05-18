@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Salesforce Classic View (Lightning - Classic)",
+  "version": "0.0.0.1",
+  "description": "Switches from Salesforce Lightning to Classic with a click",
+
+  "action": {
+    "default_title": "Click for Classic View"
+  },
+  "permissions": [
+    "tabs"
+  ]
+    ,
+  "icons": {
+    "16": "images/icon16x16.png",
+    "32": "images/icon32x32.png",
+    "48": "images/icon32x32.png",
+    "128": "images/icon128x128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
+

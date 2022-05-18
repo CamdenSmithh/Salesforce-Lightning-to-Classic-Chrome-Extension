@@ -1,0 +1,55 @@
+body {
+  background-color: #267691;
+  overflow: auto;
+  white-space: nowrap;
+  padding-right: 40px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgb(224, 224, 224);
+}
+
+h2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 45px;
+}
+
+ul:before {
+  content:attr(aria-label);
+  font-size: 35px;
+  font-weight: bold;
+  margin-left:-15px;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+li {
+  font-size: 25px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+#img-donate {
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
+
+#img-toggle-on {
+  position: relative;
+  top: 7px;
+}
+
+#img-switch-to-classic {
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
